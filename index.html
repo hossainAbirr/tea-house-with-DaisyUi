@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea house with DaisyUi</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- tailwind custom config  -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+ <!-- custom css  -->
+ <style>
+  .font-manrope {
+      font-family: 'Manrope', sans-serif;
+  }
+</style> 
+  </head>
+
+
+  <body class="font-manrope">
+<!-- header section  -->
+<header>
+  <div class="hero min-h-screen flex-1 max-w-screen-xl mx-auto my-10 px-4 md:px-8 lg:px-12 py-5">
+      <div class="hero-content flex-col-reverse lg:flex-row-reverse">
+        <img src="./images/banner.png" class="max-w-sm rounded-lg" />
+        <div class="flex-1">
+          <h1 class="text-4xl  md:text-5xl lg:text-7xl font-extrabold text-center md:text-left">It's good<br>
+              tea time at The<br> 
+              Tea House</h1>
+          <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+          <button class= "btn bg-gradient-to-r from-[#FF8938] to-[#F00] text-white
+          ">Get Started <img src="./images/arrow.png" alt="arrow"></button>
+        </div>
+      </div>
+    </div>
+</header>
+<!-- header section  -->
+<!-- main section  -->
+<main>
+  <!-- featured section  -->
+  <section class="text-center max-w-screen-xl mx-auto my-10 px-4 md:px-8 lg:px-12 py-5 ">
+    <h3 class="text-2xl md:text-4xl lg:text-6xl font-bold mb-5">Our Featured Products</h3>
+    <p class="font-medium">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+
+    <div class="grid lg:grid-cols-4 gap-6 my-12">
+      <div class="card card-compact bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f4.0%] text-center p-7">
+        <figure><img src="./images/tea-1.png" alt="tea" /></figure>
+        <div class="pt-7 ">
+          <h2 class="font-extrabold text-2xl">Milk Tea</h2>
+          <p class="">If a dog chews shoes whose shoes does he choose?</p>
+        </div>
+      </div>
+      <div class="card card-compact bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f4.0%] text-center p-7">
+        <figure><img src="./images/tea-2.png" alt="tea" /></figure>
+        <div class="pt-7">
+          <h2 class="font-extrabold text-2xl">Milk Tea</h2>
+          <p class="">If a dog chews shoes whose shoes does he choose?</p>
+          
+        </div>
+      </div>
+      <div class="card card-compact bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f4.0%] text-center p-7">
+        <figure><img src="./images/tea-3.png" alt="tea" /></figure>
+        <div class="pt-7">
+          <h2 class="font-extrabold text-2xl">Milk Tea</h2>
+          <p class="">If a dog chews shoes whose shoes does he choose?</p>
+          
+        </div>
+      </div>
+      <div class="card card-compact bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f4.0%] text-center p-7">
+        <figure><img src="./images/tea-4.png" alt="tea" /></figure>
+        <div class="pt-7">
+          <h2 class="font-extrabold text-2xl">Milk Tea</h2>
+          <p class="">If a dog chews shoes whose shoes does he choose?</p>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- featured section  -->
+
+  <!-- great tea  -->
+  <section class=" max-w-screen-xl mx-auto my-10 px-4 md:px-8 lg:px-12 py-5">
+    <div class="flex gap-10 flex-col-reverse  lg:flex-row ">
+      <div class="flex-1 gap-5 grid grid-cols-2 grid-rows-3 ">
+        <div class="bg-gradient-to-r from-[#F00] to-[#FF8938] rounded-xl opacity-20"></div>
+        <div class="row-span-2 bg-[#E6A6231A] flex justify-center  items-center">
+          <img src="./images/fresh-1.png" alt="tea" class="h-3/4">
+        </div>
+        <div class="row-span-2 bg-[#574C391A] rounded-xl  flex justify-center items-center">
+          <img src="./images/fresh-2.png" alt="tea" class="h-3/4">
+        </div>
+        <div class="bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF] rounded-xl"></div>
+      </div>
+      <div class="flex-1 space-y-7">
+        <h3 class="text-5xl font-extrabold">Great Tea, Freshly <br>
+          Presented</h3>
+          <p class="">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+          <div>
+            <h4 class="text-xl font-extrabold mb-2">Unique Taste</h4>
+            <p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+          </div>
+          <div>
+            <h4 class="text-xl font-extrabold mb-2">Premium Quality</h4>
+            <p>Premium Quality that makes tea more elegant and more durable when you use it.</p>
+          </div>
+
+      </div>
+    </div>
+
+  </section>
+  <!-- great tea  -->
+</main>
+<!-- main section  -->
+
+
+
+
+  </body>
+</html>
